@@ -24,6 +24,18 @@ summary: "这是一个mocker开发文档，包含本地和平台的系统设计"
 https://mock-server.com/
 [MockServer 开源库研究](https://www.notion.so/MockServer-19c7c9e2d68a80249ba9f182f70cecc4?pvs=21)
 
+功能点
+1. mock response
+2. forward request 
+
+值得借鉴的特性有
+1. 协议插件
+2. 规则灵活可扩展
+    a. 支持如callback, delay, forward, mock 等的action
+    b. 支持如json, xml, regex, xpath, jsonpath 等的match
+MockServer 处理流程
+![MockServer process](https://pgno4utm4itpnorr.public.blob.vercel-storage.com/mockServer-process-zY7xpxp1IjiAwDjC6E2YlusDev2ah2.png)
+
 - smoker
 [smoker server ](https://www.notion.so/smoker-server-1a47c9e2d68a80d7b6c1d1ab7f38528a?pvs=21)
 
