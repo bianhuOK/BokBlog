@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import { Header } from "@/components/header";
 import { config } from "@/lib/config";
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 export const metadata: Metadata = {
   title: config.site.title,
@@ -62,6 +63,7 @@ export default function RootLayout({
       <body className="min-w-md overflow-x-hidden">
         <Header />
         {children}
+        <SpeedInsights />
       </body>
     </html>
   );
