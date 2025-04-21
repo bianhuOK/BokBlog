@@ -23,7 +23,8 @@ ES组件研究
 
 
 # 应用场景
-https://dev.to/wallacefreitas/unlocking-the-power-of-elasticsearch-top-use-cases-for-real-time-search-and-analytics-5fe3#:~:text=One%20of%20the%20primary%20use,error);
+- https://dev.to/wallacefreitas/unlocking-the-power-of-elasticsearch-top-use-cases-for-real-time-search-and-analytics-5fe3#:~:text=One%20of%20the%20primary%20use,error);
+
 todo
 
 # 如何工作的
